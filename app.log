@@ -1,0 +1,31 @@
+2023-08-08T10:23:13.879+05:30  INFO 9476 --- [main] com.ackSystem.scms.ScmsApplication       : Starting ScmsApplication using Java 19.0.1 with PID 9476 (C:\Project\scms\target\classes started by rohan in C:\Project\scms)
+2023-08-08T10:23:13.883+05:30  INFO 9476 --- [main] com.ackSystem.scms.ScmsApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-08-08T10:23:14.627+05:30  INFO 9476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-08T10:23:14.708+05:30  INFO 9476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 5 JPA repository interfaces.
+2023-08-08T10:23:15.382+05:30  INFO 9476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9191 (http)
+2023-08-08T10:23:15.401+05:30  INFO 9476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-08T10:23:15.402+05:30  INFO 9476 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-08T10:23:15.513+05:30  INFO 9476 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-08T10:23:15.514+05:30  INFO 9476 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1559 ms
+2023-08-08T10:23:15.742+05:30  INFO 9476 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-08T10:23:15.846+05:30  INFO 9476 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-08T10:23:15.849+05:30  INFO 9476 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-08T10:23:16.001+05:30  INFO 9476 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-08T10:23:16.107+05:30  INFO 9476 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-08T10:23:16.121+05:30  INFO 9476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-08T10:23:16.403+05:30  INFO 9476 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78065fcd
+2023-08-08T10:23:16.406+05:30  INFO 9476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-08T10:23:16.796+05:30  INFO 9476 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-08T10:23:17.441+05:30  INFO 9476 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-08T10:23:17.513+05:30  INFO 9476 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-08T10:23:17.924+05:30  WARN 9476 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-08T10:23:18.424+05:30  INFO 9476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9191 (http) with context path ''
+2023-08-08T10:23:18.441+05:30  INFO 9476 --- [main] com.ackSystem.scms.ScmsApplication       : Started ScmsApplication in 5.14 seconds (process running for 5.664)
+2023-08-08T10:23:27.542+05:30  INFO 9476 --- [http-nio-9191-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-08T10:23:27.544+05:30  INFO 9476 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-08T10:23:27.545+05:30  INFO 9476 --- [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-08T10:23:27.596+05:30  WARN 9476 --- [http-nio-9191-exec-1] c.a.scms.controller.MainController       : Date Required...
+2023-08-08T10:23:27.596+05:30  INFO 9476 --- [http-nio-9191-exec-1] c.a.scms.controller.MainController       : Date Granted : 2023-08-08
+2023-08-08T10:24:36.311+05:30  INFO 9476 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-08T10:24:36.312+05:30  INFO 9476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-08T10:24:36.319+05:30  INFO 9476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
